@@ -2,7 +2,7 @@
 <h1 align="center">
   <img src="images/logo.png">
   <br/>
-  Project: 
+  Project: Particles
   <br>
 </h1>
 
@@ -24,8 +24,11 @@
 
 # INTRODUCTION.
 
-In this project I learn about ...  and how integrate ...
-Im base on... 
+This project its all about learning and how to use and implement P5js for making animations with pure JavaScript
+the library P5js is a library for creative coding, with a focus on making coding accessible and inclusive for artist, designers creator, educators and for everyone, its opensource and free.
+
+https://p5js.org/
+
 
 ## **Index** :
 
@@ -34,6 +37,13 @@ Im base on...
       <li><a href="#Improvements"> Improvements</a></li>
       <li><a href="#References"> References</a></li>
 </ul>
+
+
+
+#Explanation
+
+
+
 
 
 
