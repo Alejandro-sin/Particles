@@ -1,119 +1,72 @@
 
+<h1 align="center">
+  <img src="images/logo.png">
+  <br/>
+  Project: 
+  <br>
+</h1>
 
-```
-   /*  Mouse position
-    Se llama continuamente, muy util para diujar. */
-   if(mouseIsPressed){
-        console.log(mouseX,mouseY);
-        fill(0)
-    } else {
-        fill(100);
-    }
-    
- 
-/* Al usar mouseX,mouseY en argumentos de circulo lo vuelvo dinamico */
-    circle(mouseX,mouseY,80);
-```
-
-
-
- A continuacuín creo una clase particula para instanciar las partiucals y crar puntos aleatorios dentro de todo el marco de mi pantalla
-
- ```
-
- let p;
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+    </a>
+   <a href="https://twitter.com/Alejandrosin_" >
+    <img alt="Twitter URL" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FAlejandrosin_">
+  </a>
+  <a href="https://github.com/Alejandro-sin?tab=followers">
+    <img src="https://img.shields.io/github/followers/Alejandro-sin?tab=followers?style=social">
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/NoteBooks-blue.svg?style=flat-square">
+  </a>
+</p>
 
 
+# INTRODUCTION.
 
-function setup(){
-    createCanvas(window.innerWidth, window.innerHeight);
-    p = new Particle();
-}
+In this project I learn about ...  and how integrate ...
+Im base on... 
 
-function draw(){
-    p.draw()
-}
+## **Index** :
 
-
-class Particle {
-    constructor(){
-        //Position
-        this.pos = createVector(random(width), random(height));
-        // Size
-        this.size =10;
-    }
-
-    draw(){
-        noStroke();
-        fill('rgba(255,255,255,0.5)');
-        circle(this.pos.x, this.pos.y, this.size);
-    }
-}
- ```
-
-
- Para crear movimiento.
-
- 
-
- ```
-
-
- let p;
+<ul>
+      <li><a href="#Explanation"> Explanation</a></li>
+      <li><a href="#Improvements"> Improvements</a></li>
+      <li><a href="#References"> References</a></li>
+</ul>
 
 
 
 
+https://en.wikipedia.org/wiki/Ticker_symbolUn ticker symbol es una abreviación única 
+para identificar  publicamente un stock en particular del mercado de valroes.
 
-function setup(){
-    createCanvas(window.innerWidth, window.innerHeight);
-    p = new Particle();
-}
-
-function draw(){
-    /*  Para quitar el rastro hay que ponerle un background */
-    background(55, 100, 144)
-    p.update()
-    p.draw()
-    
-}
-
-
-class Particle {
-    constructor(){
-        //Position
-        this.pos = createVector(random(width), random(height));
-        // Size
-        this.size =10;
-        // craeate a velocity en un marco de frame, 
-        this.vel = createVector(random(-2,2),random(-2,2))
-    }
+A
+AAPL
+BRKA
+C
+GOOG
+HOG
+HPQ
+INTC
+KO
+LOV
+MMM
+MSFT
+TGT
+T
+TXN
+WMT
 
 
-    // Update movement by adding velocity
-    update(){
-        this.pos.add(this.vel);
-        this.edges()
-    }
-
-    //Draw single particle
-    draw(){
-        noStroke();
-        fill('rgba(255,255,255,0.5)');
-        circle(this.pos.x, this.pos.y, this.size);
-    }
-
-    //Detect edges
-    edges(){
-            if (this.pos.x <0 || this.pos.x > width){
-                this.vel.x *= -1;
-            }
-            if (this.pos.y <0 || this.pos.y > height){
-                this.vel.y *= -1;
-            }
-    }
-}
- ```
+https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 
 
- Para crear multiples particulas, debemos crear una rreglo 
+
+
+
+
+
+
+
+>>>>>>> 21956220ff27d7f5dbb77f9f5b8f4c936fe472da
