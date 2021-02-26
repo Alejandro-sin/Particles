@@ -38,35 +38,3 @@ Im base on...
 
 
 
-https://en.wikipedia.org/wiki/Ticker_symbolUn ticker symbol es una abreviación única 
-para identificar  publicamente un stock en particular del mercado de valroes.
-
-A
-AAPL
-BRKA
-C
-GOOG
-HOG
-HPQ
-INTC
-KO
-LOV
-MMM
-MSFT
-TGT
-T
-TXN
-WMT
-
-
-https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
-
-
-
-
-
-
-
-
-
->>>>>>> 21956220ff27d7f5dbb77f9f5b8f4c936fe472da
