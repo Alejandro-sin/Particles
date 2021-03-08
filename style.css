@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  background: rgb(238, 16, 16);
+  background: rgb(59, 56, 56);
 }
 
 img {
@@ -10,4 +10,54 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  /*   background-color: #ff0000; */
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  width: 100;
+}
+
+.image:hover .image {
+  opacity: 0;
+  transition: 0.2 ease-in-out;
+}
+
+.text {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text {
+  opacity: ;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.links:visited {
+  color: white;
+}
+
+.links:link {
+  color: white;
 }

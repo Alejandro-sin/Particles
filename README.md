@@ -25,9 +25,10 @@
 # INTRODUCTION.
 
 This project its all about learning and how to use and implement P5js for making animations with pure JavaScript
-the library P5js is a library for creative coding, with a focus on making coding accessible and inclusive for artist, designers creator, educators and for everyone, its opensource and free.
+the library P5js is a library for creative coding, with a focus on making coding accessible and inclusive for artist, designers creator, educators and for everyone, its opensource and free. https://p5js.org/
 
-https://p5js.org/
+Particles are a working progress for learning JavaScript, processing, and more about design through programming. It contains an experimental pattern inspired by nature and related scientific concepts
+
 
 
 ## **Index** :
